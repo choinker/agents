@@ -1,8 +1,14 @@
-MPAC machine 127x37
+MPAC Lab 127x37
+
+All Defaults
+
+16 Environments
+
+![Results](https://github.com/andrewgough94/agents/blob/master/atari/experiments/a2cExperiments/breakout/openai-2018-02-25-11-47-31-566778/Figure_1.png)
+
 
 command: agough@127x37:~/thesis/a3c/baselines $ python3.6 -m baselines.a2c.run_atari
 
-all defaults
 
 usage: run_atari.py [-h] [--env ENV] [--seed SEED]
                     [--num-timesteps NUM_TIMESTEPS]

@@ -6,13 +6,11 @@ Modify source code to designate any exploration algorithm
 
 Name output file with command line flag '--out'
 
-
 EXAMPLE USAGE
 
 ```
 python3 explorer.py --out experiment1 --explore e-greedy
 ```
-
 
 NOTES
 
