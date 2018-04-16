@@ -1,6 +1,4 @@
-Space Invaders experiments with A2C
-
-Default unless specified otherwise
+Space Invaders experiments with A2C (Default params unless specified otherwise)
 -----------------------------------------------------------------------------------------------------------------
 
 
