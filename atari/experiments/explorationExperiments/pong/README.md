@@ -2,13 +2,23 @@ This folder contains exploration related experiments
 
 ------------------------------------------------------------------------
 
-Experiment 2: random (blue) vs. vanilla (green)
+Experiment 1: vanilla (blue) vs. random (green)
 
-![Results1](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/RandomVsGreedy.png)
+![Results1](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/pong/Figure_1.png)
 
-[insert nohup here]
+Note: Learning rate of .001 instead of .0007
 
-Graph2: python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-04-13-16-59-23-675036/ ../a2cExperiments/spaceinvaders/openai-2018-04-12-21-12-33-874448/ --task_name SpaceInvaders
+nohup python3.6 -m baselines.a2c.run_atari --env PongNoFrameskip-v0 --exploration vanilla &
+
+Graph: python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-05-08-12-37-28-836674/ openai-2018-04-19-18-08-58-010282/ --num_timesteps 11000000 --task_name Pong
+
+------------------------------------------------------------------------
+
+Experiment 2: vanilla lr = .001 (blue) vs vanilla lr = .0007 (green)
+
+![Results2](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/pong/Figure_2.png)
+
+Graph: python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-05-08-12-37-28-836674/ openai-2018-05-08-12-31-16-905927/ --num_timesteps 11000000 --task_name Pong
 
 -------------------------------------------------------------------------
 
@@ -17,7 +27,11 @@ Atari Pong Experiments using A2C
 
 Random Policy - openai-2018-04-19-18-08-58-010282
 
-Vanilla A2C - openai-2018-04-19-17-56-44-624812
+Vanilla A2C lr = .0007 - openai-2018-05-08-12-31-16-905927
+
+Vanilla A2C lr = .001 - openai-2018-05-08-12-37-28-836674
+
+Vanilla A2C lr = .01 (Failure couldn't learn) - openai-2018-05-08-12-40-32-613761
 
 Epsilon-Greedy (10%) - 
 
