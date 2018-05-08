@@ -1,5 +1,6 @@
 Atari Enduro Experiments using A2C
 ---------------------------------------------
+ENDURO IS BROKEN AND COULD NOT GET ANY POINTS WITH A2C
 
 Random Policy - openai-2018-04-16-18-15-55-453276 
 
