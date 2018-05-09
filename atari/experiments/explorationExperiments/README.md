@@ -28,7 +28,7 @@ python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs 
 
 -------------------------------------------------------------------------
 
-Experiment 4: greedy lr .0007 (blue) vs. greedy learning rate .01 (green) INCORRECT, LEARNING RATE WAS SAME ON BOTH
+Experiment 4: greedy lr .0007 (blue) vs. greedy learning rate .001 (green)
 
 ![Results3](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/Figure_4.png)
 
@@ -38,7 +38,7 @@ python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs 
 
 Experiment 5: random (blue) vs. greedy (green) vs. anneal @ 5% (red) vs. anneal @ 10% (cyan) vs. anneal @ 20% (magenta)
 
-Analysis: The annealing epsilon value experiments (red, cyan, and magenta) start with epsilon at 100% meaning every action taken is random, they perform the best when annealed to zero the earliest. The red line anneals from 100% to zero by 5% of training and also surpasses the performance of vanilla a2c (green) around the 2 million timestep mark. However it falls behind for the next 2 million time steps but catches up quickly and mirrors the performance of vanilla ultimately finishing stronger than the vanilla version.
+Analysis: The annealing epsilon value experiments (red, cyan, and magenta) start with epsilon at 100% meaning every action taken is random, they perform the best when annealed to zero the earliest. The red line anneals from 100% to zero by 5% of training and also surpasses the performance of vanilla a2c (green) around the 2 million timestep mark. However it falls behind for the next 2 million time steps but catches up quickly and mirrors the performance of vanilla ultimately finishing stronger than the vanilla version. This indicates that a period of extreme exploration early on in training may have a positive impact in early game state space discovery.
 
 ![Results4](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/SpaceInvadersAnnealingComparison.png)
 
@@ -67,6 +67,6 @@ Epsilon-Greedy (20%) - openai-2018-04-16-18-06-16-410460
 
 Vanilla A2C - openai-2018-04-18-11-45-35-796746
 
-Learning Rate (.01) - openai-2018-04-18-11-55-15-218135
+Learning Rate (.001) - openai-2018-04-18-11-55-15-218135
 
 DQN - openai-2018-04-18-12-14-42-537737
