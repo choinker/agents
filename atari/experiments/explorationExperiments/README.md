@@ -38,7 +38,7 @@ python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs 
 
 Experiment 5: random (blue) vs. greedy (green) vs. anneal @ 5% (red) vs. anneal @ 10% (cyan) vs. anneal @ 20% (magenta)
 
-Analysis: The annealing epsilon value experiments (red, cyan, and magenta) perform the best when annealed to zero the earliest. The red line anneals to zero by 5% of training and also surpasses the performance of vanilla a2c (green) around the 2 million timestep mark. However it falls behind for the next 2 million time steps but catches up quickly and mirrors the performance of vanilla ultimately finishing stronger than the vanilla version.
+Analysis: The annealing epsilon value experiments (red, cyan, and magenta) start with epsilon at 100% meaning every action taken is random, they perform the best when annealed to zero the earliest. The red line anneals from 100% to zero by 5% of training and also surpasses the performance of vanilla a2c (green) around the 2 million timestep mark. However it falls behind for the next 2 million time steps but catches up quickly and mirrors the performance of vanilla ultimately finishing stronger than the vanilla version.
 
 ![Results4](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/SpaceInvadersAnnealingComparison.png)
 
