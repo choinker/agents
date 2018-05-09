@@ -45,6 +45,17 @@ Analysis: The annealing epsilon value experiments (red, cyan, and magenta) perfo
 python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-04-13-16-59-23-675036/ ../a2cExperiments/spaceinvaders/openai-2018-04-12-21-12-33-874448/ openai-2018-04-20-14-36-40-895677 openai-2018-04-20-14-38-28-775029 openai-2018-04-20-14-40-34-592272  --task_name SpaceInvaders --num_timesteps 11000000
 
 
+-------------------------------------------------------------------------
+
+Experiment 6: random (blue) vs. DQN (green) vs. A2C Vanilla (red)
+
+Analysis: DQN learns much quicker than A2C, but has a significant failure after 6 million timesteps, A2C has a slower but more stable learning curve also achieving a better overall performance than DQN.
+
+![Results5](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/Random_DQN_A2C_spaceInvaders.png)
+
+
+python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-04-13-16-59-23-675036 openai-2018-04-18-12-14-42-537737 openai-2018-04-18-11-45-35-796746/ --num_timesteps 10000000 --task_name SpaceInvaders
+
 Atari SpaceInvader Experiments using A2C
 -------------------------------------------------------------------------
 
@@ -58,4 +69,4 @@ Vanilla A2C - openai-2018-04-18-11-45-35-796746
 
 Learning Rate (.01) - openai-2018-04-18-11-55-15-218135
 
-
+DQN - openai-2018-04-18-12-14-42-537737
