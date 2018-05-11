@@ -1,0 +1,33 @@
+Logging to /tmp/openai-2018-05-09-14-21-31-116057
+--------------------------------------
+| % time spent exploring  | 1        |
+| episodes                | 100      |
+| mean 100 episode reward | 0        |
+| steps                   | 2800157  |
+--------------------------------------
+Saving model due to mean reward increase: None -> 0.0
+--------------------------------------
+| % time spent exploring  | 1        |
+| episodes                | 200      |
+| mean 100 episode reward | 0        |
+| steps                   | 4702385  |
+--------------------------------------
+--------------------------------------
+| % time spent exploring  | 1        |
+| episodes                | 300      |
+| mean 100 episode reward | 0        |
+| steps                   | 6308246  |
+--------------------------------------
+--------------------------------------
+| % time spent exploring  | 1        |
+| episodes                | 400      |
+| mean 100 episode reward | 0        |
+| steps                   | 8125024  |
+--------------------------------------
+--------------------------------------
+| % time spent exploring  | 1        |
+| episodes                | 500      |
+| mean 100 episode reward | 0        |
+| steps                   | 9528043  |
+--------------------------------------
+Restored model with mean reward: 0.0
