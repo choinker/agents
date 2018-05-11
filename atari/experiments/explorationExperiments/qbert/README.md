@@ -45,7 +45,7 @@ Vanilla A2C QbertNoFrameskip-v4 - openai-2018-04-18-18-33-40-747137
 
 Random Policy QbertNoFrameskip-v0 - openai-2018-04-19-14-26-35-458738
 
-Annealing at 5% - openai-2018-05-09-16-24-27-691293
+Annealing at 5% - openai-2018-05-10-11-20-33-761893
 
 A2C e-greedy constant 10% QbertNoFrameskip-v0 - openai-2018-04-19-17-36-34-655298 : Failure, can't learn
 

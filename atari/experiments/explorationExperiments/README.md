@@ -56,6 +56,17 @@ Analysis: DQN learns much quicker than A2C, but has a significant failure after 
 
 python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-04-13-16-59-23-675036 openai-2018-04-18-12-14-42-537737 openai-2018-04-18-11-45-35-796746/ --num_timesteps 10000000 --task_name SpaceInvaders
 
+-------------------------------------------------------------------------
+
+Experiment 7: DQN (Blue) vs. DQN with param noise (green)
+
+Analysis: DQN with param noise could not effectively converge on a solution within 10M timesteps.
+
+![Results6](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/SpaceInvadersDQNparamNoise.png)
+
+python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs openai-2018-04-18-12-14-42-537737 openai-2018-04-18-18-38-03-494516 --task_name SpaceInvaders
+
+
 Atari SpaceInvader Experiments using A2C
 -------------------------------------------------------------------------
 
@@ -70,3 +81,5 @@ Vanilla A2C - openai-2018-04-18-11-45-35-796746
 Learning Rate (.001) - openai-2018-04-18-11-55-15-218135
 
 DQN - openai-2018-04-18-12-14-42-537737
+
+DQN with parameter space noise - openai-2018-04-18-18-38-03-494516
