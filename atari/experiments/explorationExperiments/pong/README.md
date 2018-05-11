@@ -24,7 +24,7 @@ Graph2: python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py
 
 Experiment 3: random (blue) vs. vanilla a2c (green) vs. annealing at 5% a2c (red)
 
-Analysis: Both vanilla and annealing a2c agents have very similar performance in Pong. No notable trends in this experiment.
+Analysis: Both vanilla and annealing a2c agents are able to solve the Pong environment, however annealing a2c agent solves it roughly 2M timesteps faster than vanilla leading to a much more efficient learning curve.
 
 ![Results3](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/pong/PongRandVanAnneal.png)
 
@@ -44,7 +44,7 @@ Vanilla A2C lr = .001 - openai-2018-05-08-12-37-28-836674
 
 Vanilla A2C lr = .01 (Failure couldn't learn) - openai-2018-05-08-12-40-32-613761
 
-Annealing at 5% - openai-2018-05-09-16-27-41-396915
+Annealing at 5% - openai-2018-05-11-12-00-16-046233
 
 Epsilon-Greedy (10%) - 
 
