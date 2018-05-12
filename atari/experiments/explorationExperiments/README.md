@@ -60,7 +60,7 @@ python3 ~/Documents/school/thesis/baselines/baselines/results_plotter.py --dirs 
 
 Experiment 7: DQN (Blue) vs. DQN with param noise (green)
 
-Analysis: DQN with param noise could not effectively converge on a solution within 10M timesteps.
+Analysis: DQN with param noise could not effectively converge on a solution within 10M timesteps. Parameter space noise injections can cause performance collapse and often diverges deep RL agents. 
 
 ![Results6](https://github.com/andrewgough94/agents/blob/master/atari/experiments/explorationExperiments/SpaceInvadersDQNparamNoise.png)
 
