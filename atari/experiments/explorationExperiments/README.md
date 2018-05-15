@@ -83,3 +83,5 @@ Learning Rate (.001) - openai-2018-04-18-11-55-15-218135
 DQN - openai-2018-04-18-12-14-42-537737
 
 DQN with parameter space noise - openai-2018-04-18-18-38-03-494516
+
+Annealing A2C (5% end) - openai-2018-04-20-14-36-40-895677
